@@ -1,7 +1,7 @@
 #first{
     height: 17.8cm;
     width: 100%;
-    background-color:rgb(3, 221, 221);
+    background-color: azure;
 }
 header{
     display: flex;
@@ -13,16 +13,29 @@ a{
     color: black;
 }
 
-li:hover
+.nvc::after
 {
     color: rgba(0, 0, 0, 0.781);
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+
     font-weight: bold;
+}
+.nvc:hover ::after{
+    width: 100%;
+    opacity: 1;
 }
 hr{
     box-shadow: 0 10px 30px;
 }
 .myname{
-    padding-left: 2cm;
+    padding-left: 3cm;
     font-family: 'Times New Roman', Times, serif;
 }
 ul{
@@ -39,7 +52,7 @@ li{
     height: 10cm;
     width: 13cm;
     position: absolute;
-    left: 6cm;
+    left: 3cm;
     top: 7.5cm;
 }
 .pa1{
@@ -47,6 +60,7 @@ li{
     padding-top: 2cm;
     font-size: 20px;
 }
+
 h2{
     padding-right: 1cm;
     font-size: 1cm;
@@ -58,10 +72,10 @@ h2{
     height: 6cm;
     width: 10cm;
     position: absolute;
-    left: 22cm;
+    left: 20cm;
     top: 10.5cm;
     border: 1px solid black;
-    background-color: rgba(2, 34, 138, 0.726);
+    background-color: rgba(34, 172, 172, 0.726);
     border: none;
     border-radius: 8px; 
     box-shadow: 2px 8px 20px;
@@ -69,7 +83,7 @@ h2{
 }
 .myimg{
     position: absolute;
-    left: 22cm;
+    left: 20cm;
     top: 6.5cm;
     height: 10cm;
     width: 10cm;
@@ -90,7 +104,7 @@ h2{
 #second{
     height: 18cm;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(113, 209, 209);
     display: flex;
     scroll-behavior: smooth;
     border: 0px solid black;
@@ -127,7 +141,6 @@ h2{
     width: 100%;
     scroll-behavior: smooth;
     border: 1px solid rgba(0, 0, 0, 0);
-    background-color: rgb(230, 203, 255);
 }
 .cap,.made{
     font-size: 35px;
@@ -153,8 +166,8 @@ html{
 #fourth{
     height: 18cm;
     width: 100%;
-    background-color: rgb(255, 140, 140);
-    border: 1px solid rgba(0, 0, 0, 0);
+    background-color:rgb(51, 134, 134);
+    border : 1px solid rgba(0, 0, 0, 0);
 }
 .pro{
     font-size: 25px;
@@ -162,20 +175,58 @@ html{
     padding-top: 4cm;
 }
 #fifth{
-    height: 8cm;
+    height: 11cm;
     width: 100%;
-    background-color: aquamarine;
+    background-color:azure;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .f1{
-    height: 7cm;
+    height: 9cm;
     position: relative;
     top: 1cm;
-    left: 1cm;
+    left: 3cm;
+    
 }
-.p1,.p2{
+.p1{
     font-size: 30px;
     font-weight: bold;
-    margin: -2px;
-   
+    margin: -0px;
+    color:  rgb(43, 27, 192);
 }
+.p2{
+    margin: -1px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.p3{
+    font-size: 22px;
+    margin: -1px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo2
+{
+    font-size: 1cm;
+}
+.fa-linkedin{
+    background-color: rgba(21, 21, 187, 0.801);
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+}
+.fa-github{
+    border-radius: 50%;
+    color:  rgba(21, 21, 187, 0.801);
+    height: 0.7cm;
+    width: 0.7cm;
+
+}
+.fa-twitter{
+    color:  rgba(21, 21, 187, 0.801);
+    height: 0.7cm;
+    width: 0.7cm;
+    
+}
+
+
