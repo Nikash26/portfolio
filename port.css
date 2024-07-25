@@ -237,7 +237,10 @@ html{
 .pro{
     font-size: 25px;
     color: darkblue;
-    padding-top: 4cm;
+    padding-top: 2cm;
+}
+.made{
+    margin: -5px;
 }
 #fifth{
     height: 11cm;
@@ -294,12 +297,27 @@ html{
     width: 0.7cm;
     
 }
-.proj{
-    border: 1px solid black;
+.grid-container{
     width: 80%;
-    height: 50%;
+    height: 70%;
     position: relative;
     left: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 10px;
+}
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  height: 65%;
+}
+.pr{
+    
+    height: 55%;
+    width: 40%;
 }
 
 
