@@ -12,24 +12,66 @@ a{
     text-decoration: none;
     color: black;
 }
+/* .nvc a{
+    text-decoration: none;
 
-.nvc::after
+}
+.nvc:hover
 {
-    color: rgba(0, 0, 0, 0.781);
+    content: '';
+    width: 0;
+    color: black;
+    height: 2px;
+    left: 0;
+    transition: 0.5s;
+    bottom: -10px;
+    font-weight: bold;
+}
+.nvc:hover::after{
+    width: 100%;
+} */
+/* ul{
+    list-style-type: none;
+    display: flex;
+    }
+    li{
+        font-family: 'Times New Roman', Times, serif;
+        padding: 13px;
+        font-size: 30px;
+        } */
+        .nvc {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .nvc{
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+            text-transform: uppercase;
+            font-size: 20px;
+}
+.nvc:hover
+{
+    font-weight: bold;
+}
+.nvc ::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #009688;
+    background: #0130af;
     position: absolute;
     left: 0;
     bottom: -10px;
-    transition: 1s;
-
-    font-weight: bold;
+    transition: 0.5s;
 }
 .nvc:hover ::after{
     width: 100%;
-    opacity: 1;
+    
+}
+.menu{
+    padding-left: 35%;
+    font-size: 30px;
 }
 hr{
     box-shadow: 0 10px 30px;
@@ -37,16 +79,6 @@ hr{
 .myname{
     padding-left: 3cm;
     font-family: 'Times New Roman', Times, serif;
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    padding-left: 45%;
-}
-li{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 13px;
-    font-size: 30px;
 }
 .intro{
     height: 10cm;
