@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <title>PORTFOLIO</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="port.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body onload='location.href="#first"'>
     <div class="top">
     <header class="headd">
-        <h1 class="myname">Nikash</h1>
+        <h1 class="myname"><span>N</span>ikash</h1>
         <ul class="menu">
             <a class="nvc" href="#first"><li>Home</li></a>
             <a class="nvc" href="#second"><li>About</li></a>
@@ -19,26 +20,26 @@
     </header>
 </div>
     <div id="first">
+        <img class="meme" src="meme.jpeg">
     <hr size="2" color="black">
     <div class="intro">
         
         <p class="pa1">Hi Everyone,I am</p>
         <h2>Nikash</h2>
-        <p class="pa2">Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Ipsum officia aliquam molestias 
-            impedit accusantium. 
+        <p class="pa2">I'm a full stack developer. With zero years of experience in web development, 
+            I have a strong command over both front-end and back-end technologies,
+             allowing me to build complete and scalable applications.
         </p>
         <button class="down">Download CV  <i style="font-size:20px" class="fa">&#xf0ed;</i></button>
         <button class="exp">Explore More!</button>
 
     
     </div>
-    <div class="pic"></div>
-    <img class="myimg" src="myimg.pn">
     
 </div>
     <div id="second">
         <div class="work">
+            
             <img class="wrk" src="working.avif">
         </div>
         <div class="about">
@@ -46,10 +47,15 @@
                 About me
             </h2>
             <p class="just">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. At recusandae dignissimos culpa modi aspernatur quo quos repellat cumque quibusdam odit voluptatum dolor cupiditate, consequatur, quasi cum nemo omnis! Minima, nemo. 
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum totam sed vel sint nemo, molestias fuga fugit officiis harum rerum. Deserunt repellat voluptatibus porro praesentium sunt magnam aliquam amet nam!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quasi deserunt quam necessitatibus laudantium esse ea recusandae odit at nulla quibusdam illo nostrum, accusantium sapiente rem deleniti alias provident doloribus?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, sed neque earum numquam aperiam velit illum, reprehenderit consequuntur alias adipisci provident consectetur excepturi omnis esse veritatis quisquam est cum perferendis!
+                Hello! I am a passionate Full Stack Developer with over zero years of experience in building dynamic 
+                and responsive web applications. My expertise lies in both front-end and back-end development, 
+                allowing me to create seamless and efficient user experiences from start to finish.
+               <h4> Front-End Skills:</h4>
+                Proficient in HTML, CSS, and JavaScript, with a strong understanding of frameworks like React, Angular, and Vue.js.
+                <h4>Back-End Skills:</h4>
+                Proficient in server-side languages such as Node.js, Python, Ruby, and PHP.
+                <h4>Soft Skills:</h4>
+                Excellent communication skills, enabling effective collaboration with team members and stakeholders.
             </p>
         </div>
     </div>
@@ -96,6 +102,15 @@
         
     </div>
 
-
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay:400 
+    });
+    ScrollReveal().reveal('.myname', { delay: 100 });
+    ScrollReveal().reveal('.wrk', { delay: 100 });
+</script>
 </body>
 </html>

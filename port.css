@@ -1,11 +1,22 @@
 #first{
-    height: 17.8cm;
+    height: 18.2cm;
     width: 100%;
-    background-color: azure;
+}
+span{
+    font-size: 40px;
+    color: rgb(72, 72, 209);
+}
+body{
+    background-color: black;
+}
+.meme{
+    height: 100%;
+    width: 100%;
 }
 header{
     display: flex;
-    background-color: azure;
+    background-color: rgb(0, 0, 0);
+    color: white;
     
 }
 a{
@@ -47,7 +58,7 @@ a{
         }
         .nvc{
             text-decoration: none;
-            color: rgb(8, 8, 8);
+            color: rgb(255, 255, 255);
             text-transform: uppercase;
             font-size: 20px;
 }
@@ -80,15 +91,20 @@ hr{
     padding-left: 3cm;
     font-family: 'Times New Roman', Times, serif;
 }
+.myname:hover
+{
+    transition: rotate(360deg);
+}
 .intro{
     height: 10cm;
     width: 13cm;
     position: absolute;
     left: 3cm;
     top: 7.5cm;
+    color: white;
 }
 .pa1{
-    color: rgb(16, 13, 192);
+    color: rgb(2, 0, 94);
     padding-top: 2cm;
     font-size: 20px;
 }
@@ -96,9 +112,11 @@ hr{
 h2{
     padding-right: 1cm;
     font-size: 1cm;
+    color: black;
 }
 .pa2{
-    font-size: 22px;
+    font-size: 25px;
+    color: black;
 }
 .pic{
     height: 6cm;
@@ -114,11 +132,19 @@ h2{
     
 }
 .myimg{
+    
     position: absolute;
-    left: 20cm;
-    top: 6.5cm;
-    height: 10cm;
-    width: 10cm;
+    left: 19.5cm;
+    top: 5.5cm;
+    height: 11cm;
+    width: 11cm;
+}
+.myimg :hover{
+    transition: rotate(360deg);
+}
+
+i{
+    padding-left: 10px;
 }
 .down,.exp{
     height: 1cm;
@@ -147,9 +173,10 @@ h2{
     width: 8cm;
     
     position: relative;
-    top: 5cm;
+    top: 6cm;
     left: 5cm;
 
+    animation: ease-in 1s forwards 0.1s 1 forwards forwards;
 }
 .about{
     height: 10cm;
@@ -164,8 +191,9 @@ h2{
     
 }
 .just{
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
+    margin: -5px;
 }
 #third{
     background-color: azure;
@@ -194,6 +222,9 @@ html{
 .logo{
     position: absolute;
     right: 5.6cm;
+    display: flex;
+    list-style-type: none;
+    gap: 1cm;
 }
 #fourth{
     height: 18cm;
@@ -214,6 +245,7 @@ html{
 }
 .f1{
     height: 9cm;
+    width: 10cm;
     position: relative;
     top: 1cm;
     left: 3cm;
@@ -260,5 +292,6 @@ html{
     width: 0.7cm;
     
 }
+
 
 
