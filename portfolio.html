@@ -25,7 +25,7 @@
     <div class="intro">
         
         <p class="pa1">Hi Everyone,I am</p>
-        <h2>Nikash</h2>
+        <h2 class="naa">Nikash</h2>
         <p class="pa2">I'm a full stack developer. With zero years of experience in web development, 
             I have a strong command over both front-end and back-end technologies,
              allowing me to build complete and scalable applications.
@@ -43,7 +43,7 @@
             <img class="wrk" src="working.avif">
         </div>
         <div class="about">
-            <h2>
+            <h2 class="abt">
                 About me
             </h2>
             <p class="just">
@@ -51,11 +51,11 @@
                 and responsive web applications. My expertise lies in both front-end and back-end development, 
                 allowing me to create seamless and efficient user experiences from start to finish.
                <h4> Front-End Skills:</h4>
-                Proficient in HTML, CSS, and JavaScript, with a strong understanding of frameworks like React, Angular, and Vue.js.
+               <p class="justt">Proficient in HTML, CSS, and JavaScript, with a strong understanding of frameworks like React, Angular, and Vue.js.</p> 
                 <h4>Back-End Skills:</h4>
-                Proficient in server-side languages such as Node.js, Python, Ruby, and PHP.
+            <p class="justt"> Proficient in server-side languages such as Node.js, Python, Ruby, and PHP.</p> 
                 <h4>Soft Skills:</h4>
-                Excellent communication skills, enabling effective collaboration with team members and stakeholders.
+                <p class="justt">Excellent communication skills, enabling effective collaboration with team members and stakeholders.</p> 
             </p>
         </div>
     </div>
@@ -65,13 +65,13 @@
         <h3 class="cap">What I am Capable of?</h3>
     </center>
     <ul class="logo">
-        <li><img style="height: 3cm;" src="html.png"></li>
-        <li><img style="height: 3cm;" src="css.png"></li>
-        <li><img style="height: 2.8cm;"src="js.png"></li>
-        <li><img style="height: 2.8cm;" src="react.png"></li>
-        <li><img style="height: 2.8cm;" src="java.png"></li>
-        <li><img src="python.png"></li>
-        <li><img src="mongodb.png"></li>
+        <li><img class="ht" style="height: 3cm;" src="html.png"></li>
+        <li><img class="cs" style="height: 3cm;" src="css.png"></li>
+        <li><img class="js" style="height: 2.8cm;"src="js.png"></li>
+        <li><img class="re" style="height: 2.8cm;" src="react.png"></li>
+        <li><img class="ja" style="height: 2.8cm;" src="java.png"></li>
+        <li><img class="py" src="python.png"></li>
+        <li><img class="mo" src="mongodb.png"></li>
     </ul>    
 
     </div>
@@ -80,6 +80,7 @@
             <h2 class="pro">Projects</h2>
             <h3 class="made">What I Have Made?</h3>
         </center>
+        <div class="proj"></div>
     </div>
     <div id="fifth">
         <div class="f1">
@@ -106,11 +107,33 @@
     ScrollReveal({ 
         reset: true,
         distance: '60px',
-        duration: 2500,
-        delay:400 
+        duration: 1200,
+        delay:40 
     });
-    ScrollReveal().reveal('.myname', { delay: 100 });
-    ScrollReveal().reveal('.wrk', { delay: 100 });
+    ScrollReveal().reveal('.wrk', { delay: 100 ,origin:'left'});
+    ScrollReveal().reveal('.just', { delay: 100 ,origin:'right'});
+    ScrollReveal().reveal('.pa1', { delay: 0 });
+    ScrollReveal().reveal('.pa2', { delay: 0 });
+    ScrollReveal().reveal('.justt', { delay: 0 });
+    ScrollReveal().reveal('h4', { delay: 0 });
+    ScrollReveal().reveal('.abt', { delay: 0 ,origin:'right'});
+    ScrollReveal().reveal('.naa', { delay: 0 });
+    ScrollReveal().reveal('.down', { delay: 0,origin:'left' });
+    ScrollReveal().reveal('.exp', { delay: 0,origin:'right' });
+    ScrollReveal().reveal('.ski', { delay: 0 });
+    ScrollReveal().reveal('.ht', { delay: 0 });
+    ScrollReveal().reveal('.cs', { delay: 0 ,origin:'top'});
+    ScrollReveal().reveal('.js', { delay: 0 });
+    ScrollReveal().reveal('.re', { delay: 0 ,origin:'top'});
+    ScrollReveal().reveal('.ja', { delay: 0 });
+    ScrollReveal().reveal('.py', { delay: 0 ,origin:'top'});
+    ScrollReveal().reveal('.mo', { delay: 0 });
+    ScrollReveal().reveal('.pro', { delay: 0 });
+
+
+
+
+
 </script>
 </body>
 </html>

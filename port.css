@@ -149,7 +149,7 @@ i{
 .down,.exp{
     height: 1cm;
     width: 6cm;
-    background-color: rgba(11, 11, 233, 0.541);
+    background-color: rgb(12, 12, 143);
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -157,7 +157,9 @@ i{
     border-radius: 3px;
 }
 .down:hover,.exp:hover{
-    background-color: rgb(37, 98, 190);
+    background-color: rgb(0, 7, 39);
+    box-shadow: 0px 1px 30px 8px rgb(29, 154, 196);
+    color: rgb(255, 255, 255);
 }
 #second{
     height: 18cm;
@@ -291,6 +293,13 @@ html{
     height: 0.7cm;
     width: 0.7cm;
     
+}
+.proj{
+    border: 1px solid black;
+    width: 80%;
+    height: 50%;
+    position: relative;
+    left: 10%;
 }
 
 
