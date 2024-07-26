@@ -303,9 +303,12 @@ html{
     position: relative;
     left: 10%;
     display: grid;
-    grid-template-columns: auto auto;
+    
     column-gap: 50px;
     row-gap: 10px;
+    
+    
+    grid-template-columns: repeat(2, 1fr);
 }
 .grid-item{
     background-color: rgba(255, 255, 255, 0.8);
@@ -313,11 +316,22 @@ html{
   font-size: 20px;
   text-align: left;
   height: 65%;
+  position: relative;
 }
 .pr{
     
     height: 55%;
     width: 40%;
+}
+.event{
+    position: relative;
+    left: 44%;
+    bottom: 60%;
+}
+.eventname{
+    position: relative;
+    bottom: 40%;
+    text-align: center;
 }
 
 
